@@ -31,7 +31,7 @@ class Assignment:#define a class
     def _set4_(self, due):  # method
         return self.due
 
-    def _get4_(self, duedate):  # method
+    def _get4_(self, due):  # method
         return self.due
 
     def _set5_(self, status):  # method
