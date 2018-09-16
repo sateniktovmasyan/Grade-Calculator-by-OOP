@@ -227,9 +227,9 @@ class AssignmentGrade:
 
 class Course:#define a class
 
-    def __init__(self, title, id, credits, lecturername, assignment):#these are class variables
+    def __init__(self, title, courseid, credits, lecturername, assignment):#these are class variables
         self.title = title
-        self.id = id
+        self.courseid = courseid
         self.credits = credits
         self.lecturername = lecturername
         self.assignment = assignment
@@ -241,11 +241,11 @@ class Course:#define a class
     def gettitle(self, title):#method
         return self.title
 
-    def setid(self, id):  # method
-        return self.id
+    def setid(self, courseid):  # method
+        return self.courseid
 
-    def getid(self, id):  # method
-        return self.id
+    def getid(self, courseid):  # method
+        return self.courseid
 
     def setcredits(self, credits):  # method
         return self.credits
