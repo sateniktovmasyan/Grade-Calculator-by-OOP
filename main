@@ -241,28 +241,28 @@ class Course:#define a class
     def gettitle(self, title):#method
         return self.title
 
-    def _set2_(self, id):  # method
+    def setid(self, id):  # method
         return self.id
 
-    def _get2_(self, id):  # method
+    def getid(self, id):  # method
         return self.id
 
-    def _set3_(self, credits):  # method
+    def setcredits(self, credits):  # method
         return self.credits
 
-    def _get3_(self, credits):  # method
+    def getcredits(self, credits):  # method
         return self.credits
 
-    def _set4_(self, lecturername):  # method
+    def setlecturername(self, lecturername):  # method
         return self.lecturername
 
-    def _get4_(self, lecturername):  # method
+    def getlecturername(self, lecturername):  # method
         return self.lecturername
 
-    def _set5_(self, assignment):  # method
+    def setassignment(self, assignment):  # method
         return self.assignment
 
-    def _get5_(self, assignment):  # method
+    def getassignment(self, assignment):  # method
         return self.assignment
 
 def main():
