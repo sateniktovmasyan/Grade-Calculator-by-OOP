@@ -1,19 +1,25 @@
 class Grade:#define a class
     min = 0
     max = 100
+    
      def __init__(self, grade):#grade is a class variable
         self.grade = grade
+        
      def _set_(self, grade):#method
         return self.grade
+        
      def _get_(self):#method
         return self.grade
+        
      def display(self):#display of the grade as an example
         print 'grade = ', self.grade
+        
      def CkeckIFValid(self):
         if self.grade <= self.max:
             if self.grade > self.min:
                 print 'Valid'
         else:
             print 'Not Valid'
-grade1 = Grade(100)
+            
+grade1 = Grade(100) #example for checking
 grade1.CkeckIFValid()
