@@ -1,6 +1,7 @@
 class Assignment:#define a class
     min = 0
     max = 100
+    
      def __init__(self, name, percent, grade, due, status, descr):#these are class variables
         self.name = name
         self.percent = percent
@@ -8,31 +9,45 @@ class Assignment:#define a class
         self.due = due
         self.status = status
         self.descr = descr
+        
      def _set1_(self, name):#method
         return self.name
+        
      def _get1_(self, name):#method
         return self.name
+        
      def _set2_(self, percent):  # method
         return self.percent
+        
      def _get2_(self, percent):  # method
         return self.percent
+        
      def _set3_(self, grade):  # method
         return self.grade
+        
      def _get3_(self, grade):  # method
         return self.grade
+        
      def _set4_(self, due):  # method
         return self.due
+        
      def _get4_(self, due):  # method
         return self.due
+        
      def _set5_(self, status):  # method
         return self.status
+        
      def _get5_(self, status):  # method
         return self.status
+        
      def _set6_(self, descr):  # method
         return self.descr
+        
      def _get6_(self, descr):  # method
         return self.descr
+        
      def CkeckIfLate(self): # function will be written after
         return self
+        
      def CheckIfGraded(self): # function will be written after
         return self
